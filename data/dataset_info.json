@@ -1,0 +1,96 @@
+{
+    "FCGEC_train_single": {
+  "file_name": "FCGEC_train_single.json",
+  "columns": {
+    "prompt": "source",
+    "query": "",
+    "response": "target",
+    "history": ""
+  }
+},
+  "FCGEC_valid": {
+  "file_name": "FCGEC_valid.json",
+  "columns": {
+    "prompt": "source",
+    "query": "",
+    "response": "target",
+    "history": ""
+  }
+},
+  "chinese_lang8_hsk": {
+  "file_name": "chinese_lang8_hsk.json",
+  "columns": {
+    "prompt": "source",
+    "query": "",
+    "response": "target",
+    "history": ""
+  }
+},
+  "bea_dev": {
+  "file_name": "bea_dev.json",
+  "columns": {
+    "prompt": "source",
+    "query": "",
+    "response": "target",
+    "history": ""
+  }
+},
+    "wi_locness": {
+  "file_name": "wi_locness.json",
+  "columns": {
+    "prompt": "source",
+    "query": "",
+    "response": "target",
+    "history": ""
+  }
+},
+    "mix_nucle_fce": {
+  "file_name": "mix_nucle_fce.json",
+  "columns": {
+    "prompt": "source",
+    "query": "",
+    "response": "target",
+    "history": ""
+  }
+},
+  "mistral-sft-stage2-checkpoint-1-wi_locness_multi_predict": {
+    "file_name": "mistral-sft-stage2-checkpoint-1-wi_locness_multi_predict.json",
+    "columns": {
+      "prompt": "source",
+      "query": "",
+      "response": "label_neg",
+      "history": ""
+    },
+    "ranking": true
+  },
+    "mistral-sft-stage2-checkpoint-1-bea_dev_multi_predict": {
+    "file_name": "mistral-sft-stage2-checkpoint-1-bea_dev_multi_predict.json",
+    "columns": {
+      "prompt": "source",
+      "query": "",
+      "response": "label_neg",
+      "history": ""
+    },
+    "ranking": true
+  },
+    "qwen2-sft-stage2-checkpoint-1-FCGEC_train_single_multi_predict": {
+    "file_name": "qwen2-sft-stage2-checkpoint-1-FCGEC_train_single_multi_predict.json",
+    "columns": {
+      "prompt": "source",
+      "query": "",
+      "response": "label_neg",
+      "history": ""
+    },
+    "ranking": true
+  },
+    "qwen2-sft-stage2-checkpoint-1-FCGEC_valid_multi_predict": {
+    "file_name": "qwen2-sft-stage2-checkpoint-1-FCGEC_valid_multi_predict.json",
+    "columns": {
+      "prompt": "source",
+      "query": "",
+      "response": "label_neg",
+      "history": ""
+    },
+    "ranking": true
+  }
+}
